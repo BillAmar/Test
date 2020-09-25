@@ -15,6 +15,7 @@ public class fileUploadStepDefs {
     public void user_on_File_Upload_page() {
         System.out.println("Opening the File Upload page");
         Driver.get().get(ConfigurationReader.get("baseURL") + "upload");
+        System.out.println("Running to next step");
     }
 
     @When("Upload Button or Drag and Drop to upload a file.")
