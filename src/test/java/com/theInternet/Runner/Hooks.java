@@ -3,8 +3,6 @@ package com.theInternet.Runner;
 import com.theInternet.Utilities.Driver;
 import io.cucumber.java.*;
 
-import java.util.concurrent.TimeUnit;
-
 public class Hooks {
     @Before()
     public void setUpScenario() {

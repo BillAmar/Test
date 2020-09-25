@@ -4,9 +4,7 @@ import com.theInternet.Pages.fileUploadPage;
 import com.theInternet.Utilities.ConfigurationReader;
 import com.theInternet.Utilities.Driver;
 import io.cucumber.java.en.*;
-
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class fileUploadStepDefs {
     fileUploadPage fileUploadPage = new fileUploadPage();
