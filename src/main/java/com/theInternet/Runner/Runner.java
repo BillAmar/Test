@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         features = "src/main/resources/features",
         glue = "com/theInternet/StepDefinitions",
         dryRun = false,
-        tags = "@Test5"
+        tags = "@TestAll"
 )
 public class Runner {
 
