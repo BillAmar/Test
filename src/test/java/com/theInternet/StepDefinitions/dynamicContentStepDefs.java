@@ -1,16 +1,13 @@
 package com.theInternet.StepDefinitions;
 
-import com.github.javafaker.Faker;
 import com.theInternet.Pages.dynamicContentPage;
 import com.theInternet.Utilities.ConfigurationReader;
 import com.theInternet.Utilities.Driver;
 import io.cucumber.java.en.*;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;

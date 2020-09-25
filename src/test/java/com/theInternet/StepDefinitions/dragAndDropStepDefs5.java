@@ -1,16 +1,11 @@
 package com.theInternet.StepDefinitions;
 
 import com.theInternet.Pages.dragAndDropPage;
-import com.theInternet.Utilities.BrowserUtils;
 import com.theInternet.Utilities.ConfigurationReader;
 import com.theInternet.Utilities.Driver;
-import com.theInternet.Utilities.WebDriverFactory;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.interactions.Actions;
 
-import java.util.Objects;
-
-import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertTrue;
 

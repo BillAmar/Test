@@ -6,7 +6,6 @@ import com.theInternet.Utilities.ConfigurationReader;
 import com.theInternet.Utilities.Driver;
 import io.cucumber.java.en.*;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

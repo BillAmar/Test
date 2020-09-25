@@ -3,9 +3,6 @@ package com.theInternet.Pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.Arrays;
-import java.util.List;
-
 public class dynamicContentPage extends basePage{
 
     @FindBy(xpath = "//*[@id='content']/div[1]/div[2]")

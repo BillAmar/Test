@@ -2,21 +2,16 @@ package com.theInternet.StepDefinitions;
 
 import com.theInternet.Pages.contextMenuPage;
 import com.theInternet.Pages.dragAndDropPage;
-import com.theInternet.Utilities.BrowserUtils;
 import com.theInternet.Utilities.WebDriverFactory;
-import io.cucumber.java.bs.A;
-import io.cucumber.java.en_old.Ac;
 import org.junit.Test;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.awt.*;
-import java.awt.event.KeyEvent;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;

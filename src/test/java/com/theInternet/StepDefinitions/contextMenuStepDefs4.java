@@ -4,7 +4,6 @@ import com.theInternet.Pages.contextMenuPage;
 import com.theInternet.Utilities.BrowserUtils;
 import com.theInternet.Utilities.ConfigurationReader;
 import com.theInternet.Utilities.Driver;
-import io.cucumber.java.bs.A;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;

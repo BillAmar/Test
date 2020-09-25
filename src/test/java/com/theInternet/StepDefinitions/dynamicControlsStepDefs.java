@@ -3,16 +3,11 @@ package com.theInternet.StepDefinitions;
 import com.theInternet.Pages.dynamicControlsPage;
 import com.theInternet.Utilities.ConfigurationReader;
 import com.theInternet.Utilities.Driver;
-import com.theInternet.Utilities.WebDriverFactory;
 import io.cucumber.java.en.*;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.List;
-
 import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.*;
 import static org.junit.Assert.*;
 
 public class dynamicControlsStepDefs {
