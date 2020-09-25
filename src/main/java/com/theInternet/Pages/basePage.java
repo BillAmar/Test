@@ -9,4 +9,6 @@ public class basePage {
         PageFactory.initElements(Driver.get(), this);
     }
     public static WebDriverWait webDriverWait;
+    
+    
 }
